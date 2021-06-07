@@ -1,0 +1,20 @@
+{
+  "name": "passwordless-authentication-tutorial",
+  "author": "Morgan Richardson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "cd prod && npm run start",
+    "start:dev": "cd dev && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morganrmarie/passwordless-authentication-tutorial.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morganrmarie/passwordless-authentication-tutorial/issues"
+  },
+  "homepage": "https://github.com/morganrmarie/passwordless-authentication-tutorial#readme"
+}
