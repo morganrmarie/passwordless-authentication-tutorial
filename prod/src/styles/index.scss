@@ -22,22 +22,29 @@ body {
   letter-spacing: -0.02em;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
-.Index__Wrapper {
+.IndexWrapper {
   width: 85%;
   margin: 0 auto;
 }
 
-.Index__Container {
+.IndexContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
+
+  .LoginContainer {
+    position: relative;
+
+    img {
+      width: 160px;
+      position: absolute;
+      right: 17%;
+      top: 40%;
+    }
+  }
 }
 
 h1 {
@@ -68,6 +75,17 @@ input {
     color: black;
     text-transform: uppercase;
     opacity: 0.2;
+  }
+}
+
+.LoggedInInfo {
+  margin: 50px 0px 70px 0px;
+  color: white;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+  span {
+    text-shadow: none;
   }
 }
 
@@ -109,7 +127,7 @@ button {
   width: 230px !important;
   height: 50px;
 
-  .Footer__Link {
+  .FooterLink {
     height: 50px;
   }
 

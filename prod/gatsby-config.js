@@ -1,6 +1,10 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
 module.exports = {
   siteMetadata: {
-    title: "prod",
+    title: "prod"
   },
-  plugins: ["gatsby-plugin-sass"],
-};
+  plugins: ["gatsby-plugin-sass"]
+}
