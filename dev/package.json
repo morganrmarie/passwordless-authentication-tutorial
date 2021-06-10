@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "dotenv": "^10.0.0",
     "gatsby": "^3.6.2",
     "gatsby-plugin-sass": "^4.6.0",
     "react": "^17.0.1",
