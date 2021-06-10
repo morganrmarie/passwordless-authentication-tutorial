@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c67c9cb5-77f0-47a8-991c-f4603b84e7ff/deploy-status)](https://app.netlify.com/sites/magic-gatsby/deploys)
 
-✨ View the app in production [here](https://magic-gatsby.netlify.app)
+✨ View the app live in production [here](https://magic-gatsby.netlify.app)
 
 ## 💻 An Enhanced Developer Experience
 
