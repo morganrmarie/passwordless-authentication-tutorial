@@ -161,3 +161,56 @@ button {
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .IndexContainer {
+    .LoginContainer {
+      img {
+        width: 100px;
+        position: absolute;
+        right: 10%;
+        top: 35%;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  input {
+    margin: 50px 0px 50px 0px;
+    width: 250px;
+    height: 60px;
+    line-height: 22px;
+    font-size: 22px;
+    padding: 0px 20px;
+  }
+
+  .Header {
+    top: 20px;
+    left: 20px;
+
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .Footer {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  button {
+    padding: 20px 24px;
+    width: 250px;
+    height: 60px;
+
+    p {
+      font-size: 24px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+}
