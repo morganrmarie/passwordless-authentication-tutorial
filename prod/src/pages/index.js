@@ -20,7 +20,7 @@ const IndexPage = () => {
       })
 
       let userMetadata = await magic.user.getMetadata()
-      await setUser(userMetadata)
+      setUser(userMetadata)
     } catch (error) {
       console.error(error)
     }
