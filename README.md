@@ -54,6 +54,8 @@ The starter template for this tutorial lies in the `dev/` directory of this tuto
 
 `npm install --save magic-sdk`
 
+By default Gatsby supports two environments: **development** and **production**. To support both environments, we'll create two files in the root of the `dev/` \*\*directory: `.env.development` and `.env.production`. Copy the contents (it's only one variable) of `.env.example` to both files.
+
 Before we initialize Magic, you'll need to sign up to the [Magic Dashboard](https://dashboard.magic.link/signup) to get your own API keys. Replace `GATSBY_MAGIC_PUBLISHABLE_API_KEY` in .env.development and .env.production with your "Publishable API Key" from the [Magic Dashboard](https://dashboard.magic.link/signup).
 Now that we've set our environment variable, we can create an SDK instance to initialize Magic.
 
