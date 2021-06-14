@@ -10,15 +10,19 @@ const IndexPage = () => {
   const [user, setUser] = useState(null)
   let userEmail = createRef()
 
+  // Handle login with email
   const handleEmailLogin = async (e) => {
+    // Get the current value from the input field
     const email = userEmail.current.value
     if (!email) return
 
     try {
+      // Login with Magic ✨
       await magic.auth.loginWithMagicLink({
         email
       })
 
+      // Set user metadata
       let userMetadata = await magic.user.getMetadata()
       setUser(userMetadata)
     } catch (error) {
